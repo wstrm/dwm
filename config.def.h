@@ -4,9 +4,9 @@
 
 /* appearance */
 static const char *fonts[] = {
-	"Consolas:pixelsize=12:antialias=true:autohint=true"
+	"JetBrains Mono:pixelsize=14"
 };
-static const char dmenufont[]       = "Consolas:pixelsize=12:antialias=true:autohint=true";
+static const char dmenufont[]       = "JetBrains Mono:pixelsize=14";
 
 static const unsigned int borderpx  = 1;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
