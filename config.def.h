@@ -73,8 +73,8 @@ static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() 
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *passmenucmd[] = { "passmenu", "-m", dmenumon, "-fn", dmenufont, "-nb", normbgcolor, "-nf", normfgcolor, "-sb", selbgcolor, "-sf", selfgcolor, NULL };
 static const char *wificmd[] = {"st", "-n", "wifi", "-t", "wifi", "-c", "WiFi", "-e", "sudo", "wpa_cli", NULL};
-static const char *webcmd[]  = { "firefox", NULL };
-static const char *termcmd[]  = { "st", NULL };
+static const char *webcmd[]  = { "qutebrowser", NULL };
+static const char *termcmd[]  = { "st", "-e", "tmux", NULL };
 static const char *lockcmd[]  = { "slock", NULL };
 
 #include "shiftview.c"
