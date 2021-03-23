@@ -75,7 +75,7 @@ static const char *passmenucmd[] = { "passmenu", "-m", dmenumon, "-fn", dmenufon
 static const char *wificmd[] = {"st", "-n", "wifi", "-t", "wifi", "-c", "WiFi", "-e", "sudo", "wpa_cli", NULL};
 static const char *webcmd[]  = { "qutebrowser", NULL };
 static const char *termcmd[]  = { "st", "-e", "tmux", NULL };
-static const char *lockcmd[]  = { "slock", NULL };
+static const char *lockcmd[]  = { "physlock", NULL };
 
 #include "shiftview.c"
 static Key keys[] = {
